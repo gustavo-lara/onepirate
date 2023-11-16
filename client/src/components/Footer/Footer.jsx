@@ -1,16 +1,11 @@
-import styles from "./Footer.module.css"
+import React from 'react'
+import SimpleContainer from '../SimpleCantainer'
+import styles from './Footer.module.css'
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
-      <div className={styles.container}>
-        <div>
-
-        </div>
-        <div>
-          
-        </div>
-      </div>
+    <div className={styles.Footer}>
+        <SimpleContainer/>
     </div>
   )
 }
