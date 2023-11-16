@@ -10,15 +10,15 @@ import Error from './routes/Error/Error.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element:<App />,
-    errorElement:<Error/>,
-    children:[
-      {path: "/", element:<Home/>},
-      {path: "singin", element:<SingIn/>},
-      {path: "singup", element:<SingUp/>}
+    path: "/",
+    element: <App />,
+    errorElement: <Error />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "singin", element: <SingIn /> },
+      { path: "singup", element: <SingUp /> }
     ],
-    },
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
