@@ -1,0 +1,16 @@
+.Cont {
+    background: #F5F5FF;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Cont2 {
+    display: flex;
+    height: 363.83px;
+    padding: 40px 0px 0px 40px;
+    align-items: flex-start;
+    gap: 40px;
+}

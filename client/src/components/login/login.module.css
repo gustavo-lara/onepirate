@@ -1,0 +1,10 @@
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+small{
+    color:#28282A;
+    font-family: "Roboto Condensed",
+}

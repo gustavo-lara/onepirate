@@ -7,6 +7,7 @@ import SingIn from './routes/SingIn/SingIn.jsx'
 import SingUp from './routes/SingUp/SingUp.jsx'
 import Home from './routes/Home/Home.jsx'
 import Error from './routes/Error/Error.jsx'
+import Forget from "./routes/forget/forget.jsx"
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "singin", element: <SingIn /> },
-      { path: "singup", element: <SingUp /> }
+      { path: "singup", element: <SingUp /> },
+      { path: "forget", element: <Forget /> }
     ],
   },
 ]);

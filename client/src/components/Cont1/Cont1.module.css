@@ -1,0 +1,50 @@
+.Cont {
+    background-image: url('./../../assets/bgimg.png');
+    object-fit: cover;
+}
+
+.Cont1 {
+    width: 100%;
+    height: 645px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+}
+
+
+.p {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+    /* 120% */
+    text-transform: uppercase;
+}
+
+.Cont1 h4 {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26.68px;
+    /* 133.4% */
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.Cont1 h5 {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 10px;
+    /* 150% */
+}
