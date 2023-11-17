@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Cont1.module.css'
 import BasicButtons from '../btn'
-import bg from "./../../assets/bgimg.png"
+import bg from "../../assets/fotofundo.svg"
 
 const Cont1 = () => {
     return (

@@ -1,6 +1,7 @@
 .Cont {
     background-image: url('./../../assets/bgimg.png');
     object-fit: cover;
+
 }
 
 .Cont1 {
@@ -11,7 +12,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #000;
 }
 
 
