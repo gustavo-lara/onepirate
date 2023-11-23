@@ -1,3 +1,8 @@
+.titulo {
+    background-color: #F5F5FF;
+    padding: 10px;
+}
+
 .titulo h1 {
     font-family: Roboto Condensed;
     display: flex;

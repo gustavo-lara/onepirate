@@ -8,7 +8,6 @@ import { Button } from '@mui/material';
 
 const Cont4 = () => {
         return (
-        
         <div className={styles.titulo}>
             <h1>HOW IT WORKS</h1>
             <div className={styles.cont4}>
